@@ -5,8 +5,8 @@
  * Replace `robinhoodUsername` and `robinhoodPassword` with your own Robinhood credentials.
  */
 
-var robinhoodUsername = 'joshua.d.harvey@gmail.com';
-var robinhoodPassword = '323JdH602!';
+var robinhoodUsername = 'enterusernamehere';
+var robinhoodPassword = 'enterpasswordhere';
 
 var robinhoodApiBaseUrl = 'https://api.robinhood.com';
 var robinhoodApiUriMap = {
