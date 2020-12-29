@@ -31,10 +31,10 @@ function getAccessToken_() {
   var payload = {
     'grant_type': "password",
     'scope': "internal",
-    'client_id': "c82SH0WZOsabOXGP2sxqcj34FxkvfnWRZBKlBjFS",
+    'client_id': "enterclientidhere",
     'username': robinhoodUsername,
     'password': robinhoodPassword,
-    'device_token': "5c25390f-ff4f-4dd4-8ea7-5fca4548d74c"  /* https://stackoverflow.com/questions/55902967/is-there-any-way-to-get-a-bearer-token-now-since-robinhood-has-changed-the-api/56841942 */
+    'device_token': "enterdevicetokenhere"  /* https://stackoverflow.com/questions/55902967/is-there-any-way-to-get-a-bearer-token-now-since-robinhood-has-changed-the-api/56841942 */
   };
   var options = {
     'method': 'post',
